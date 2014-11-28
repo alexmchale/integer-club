@@ -6,6 +6,11 @@ Bundler.require
 
 $db = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/integer-club')
 
+get "/" do
+  content_type "text/plain"
+  $readme ||= File.read("README.markdown")
+end
+
 get %r{ .* }ixm do
   key = Digest::SHA2.hexdigest(request.url)
 
