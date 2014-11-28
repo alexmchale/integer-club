@@ -19,3 +19,9 @@ A different URL will return a different incrementing value.
 ## What's this for?
 
 I don't know .. but let me know if you figure it out.
+
+## The Source Code
+
+If you want to see how The Integer Club works:
+
+http://github.com/alexmchale/integer-club
