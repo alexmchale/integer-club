@@ -1,5 +1,5 @@
-Integer Club
-------------
+The Integer Club
+----------------
 
 The Integer Club is an HTTP API for retrieving unique, incrementing integers.
 
