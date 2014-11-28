@@ -7,10 +7,10 @@ The Integer Club is an HTTP API for retrieving unique, incrementing integers.
 
 The Integer Club will return an incrementing value for each unique URL.
 
-    → curl 'http://integer.club/jasodifjasdf/zxcv3'; echo
-    2
+    → curl 'http://integer.club/jasodifjasdf/zxcv3'
+    204
 
-    → curl 'http://integer.club/jasodifjasdf/zxcv4'; echo
+    → curl 'http://integer.club/jasodifjasdf/zxcv4'
     1
 
 ## What's this for?
